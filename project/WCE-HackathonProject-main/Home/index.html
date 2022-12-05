@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="static/css/chat.css">
+    <link rel="stylesheet" href="static/css/home.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            color: #222222;
+            background-color: #f2f2f0;
+            background-color: white;
+            background-image: url("/Home/home1.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            /* padding: 20px; */
+            overflow-x: hidden;
+        }
+
+        /* .wow{
+			background-color: #ffd700;
+		}
+		.main10{
+			width: 500px;
+			margin: 50px auto;
+			border-radius: 10px;
+			border: 5px solid #dc143c;
+			border-left: 40px solid #dc143c;
+			box-shadow: 1px 2px 10px #555;
+		}
+		.info10{
+			width: 100%;
+			background-color: #dc143c;
+			padding: 7px;
+			text-shadow: 1px 1px 1px #222;
+			color: #fff;
+			font-size: 20px;
+		}
+		.form-box{
+			padding: 20px;
+			background-color: #eee;
+		}
+		label{
+			color: navy;
+			font-size: 18px;
+		}
+		.inp,.msg-box{
+			width: 100%;
+			padding: 10px;
+			margin-top: 4px;
+			margin-bottom: 5px;
+			border-radius: 5px;
+			border: 2px solid #dc143c;
+			font-weight: bold;
+			color: #dc143c;
+			border-right: 15px solid #dc143c;
+			border-left: 15px solid #dc143c;
+			resize: none;
+		}
+		.msg-box{
+			height: 80px;
+		}
+		.inp:focus,.msg-box:focus{
+			outline: none;
+			border: 2px solid navy;
+			border-right: 15px solid navy;
+			border-left: 15px solid navy;
+		}
+		.sub-btn{
+			width: 100%;
+			padding: 10px;
+			border-radius: 5px;
+			margin-top: 5px;
+			border: none;
+			background: linear-gradient(#dc143c,#800000);
+			cursor: pointer;
+			color: #fff;
+			font-size: 20px;
+			text-shadow: 1px 1px 1px #444;
+		}
+		.sub-btn:hover{
+			background: linear-gradient(#800000,#dc143c);
+			opacity: 0.8;
+			transition: all ease-out 0.2s;
+		}
+		.sub-btn:focus{
+			outline: none;
+		}
+		@media(max-width: 720px){
+			.main{
+				width: 90%;
+			}
+		} */
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h1 style="font-family: sans-serif;
+                font-size: 22px; font-weight: 300; color: rgb(255, 255, 255);">FoodForGood</h1>
+        </div>
+        <div class="btn_select">
+            <div class="btn_donor">
+                <button class="btn"><a style="text-decoration: none; color: white;"
+                        href="/dashboard/index.html">Dashboard</a></button>
+            </div>
+            <div class="btn_cons">
+                <button class="btn"><a style="text-decoration: none; color: white;" href="/sign in/index.html">Sign
+                        In</a></button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <h1 style="text-align: center; font-family: sans-serif; 
+            padding-top: 50px;"> Food Relief Initiative</h1>
+        <div class="carts">
+            <div class="cart">
+                <div>
+                    <h3 style="font-family: sans-serif; font-size: 30px;color: rgb(80, 76, 76);"> Support Us</h3>
+                </div>
+                <div class="btn_cons">
+                    <button class="btn"><a href="/sign in/index.html">Donor</a></button>
+                </div>
+            </div>
+            <div class="cart">
+                <div>
+                    <h3 style="font-family: sans-serif; font-size: 30px;color:rgb(80, 76, 76);"> Support Us</h3>
+                </div>
+                <div class="btn_cons">
+                    <button class="btn"><a href="/sign in/index.html">consumer</a></button>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="mar">
+                <marquee width="70%" direction="left" behavior="scroll" height="50px" style="display: flex; flex-direction: row;">
+                   hello &nbsp;&nbsp;&nbsp;
+                </marquee>
+                
+            </div> -->
+
+
+        <div class="body5">
+            <H1 class="newh1">
+                Areal View of Customers
+            </H1>
+            <div class="container5">
+
+                <div class="box5" id="box-1">Currently there is few such application exist in market and mainly such
+                    kind of work manage by physically (men power). So in my solution we are trying to convert it from
+                    physically to digitalise so it will provide more accuracy and reliability to the user and work more
+                    efficiently as compared to other application. End user of our web app application will be the NG0’s
+                    and other will be the users they can access our web application according to their needs. In our
+                    application it has filteralization capability it will filter the food on two days basis for this we
+                    have created recommendation system which contains all the list of items with item quantity.
+                    <br><br>
+                    According to the problem above we have decided to make an web based application where there is
+                    different options are given to select if you are the consumer (user) or if you are the donor both
+                    have to do registration according to the choose domain. Basically our application is for NGO’s and
+                    other people can also use it. In our application there are different items are given according to
+                    variety in food. We have built a recommender system for the consumer based on the food items are
+                    frequently consumed and expiry. Therefore also helping the donor donate. Reducing food waste at
+                    retail, food service and household label can provide multifaceted benefits for both people and
+                    planet. There is a chatbot on the home page if user has any doubt how to order or how to donate or
+                    any query related to our website they can get answer there and we are also using filtration to check
+                    the food quality.
+                </div>
+
+                <div class="box5" id="box-1"><img class="img5" src="graph.jpeg" alt=""></div>
+
+            </div>
+        </div>
+
+
+
+        <div class="feedback">
+
+            <div class="container3">
+                <div class="from-container3">
+
+                    <div class="left-container3">
+
+
+                        <h2>Contact Us</h2>
+                        <p>We would love to hear from you!</p>
+                    </div>
+                    <div class="right-container3">
+                        <form action="feedback.php" method="post">
+                            <h2 class="lg-view3">
+                                Contact Us
+                            </h2>
+                            <h2 class="Sm-view3">
+                                Let's Chats
+                            </h2>
+
+
+                            <br>
+                            <p><b>Name :</b></p>
+                            <input type="text" placeholder="Enter Your Name ">
+
+                            <br>
+                            <p><b>Email :</b></p>
+                            <input type="text" placeholder="Enter Your Email ">
+
+                            <br>
+                            <p><b>Company</b></p>
+                            <input type="text" placeholder="Company">
+
+                            <br>
+                            <p><b>Phone :</b></p>
+                            <input type="text" placeholder="Enter Your Phone Number">
+
+                            <br>
+                            <p><b>Message :</b></p>
+                            <textarea rows="4" placeholder="Message"></textarea>
+                            <button class="button3">Submit</button>
+                    </div>
+
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        
+
+        <div class="chat-bar-collapsible">
+            <button id="chat-button" type="button" class="collapsible">Chat with me!
+                <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+            </button>
+
+            <div class="content1">
+                <div class="full-chat-block">
+
+                    <div class="outer-container">
+                        <div class="chat-container">
+
+                            <div id="chatbox">
+                                <h5 id="chat-timestamp"></h5>
+                                <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                            </div>
+
+
+                            <div class="chat-bar-input-block">
+                                <div id="userInput">
+                                    <input id="textInput" class="input-box" type="text" name="msg"
+                                        placeholder="Tap 'Enter' to send a message">
+                                    <p></p>
+                                </div>
+
+                                <div class="chat-bar-icons">
+                                    <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                        onclick="sendButton()"></i>
+                                </div>
+                            </div>
+
+                            <div id="chat-bar-bottom">
+                                <p></p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div> -->
+
+
+        <script>
+
+            const changing = document.querySelector('#bnt1');
+            changing.addEventListener('click',
+                () => {
+                    const Changed = document.getElementById('heading');
+                    Changed.innerHTML = "Spread the cheer anytime of the year Get in the mood to donate food.No tricks, just treats! Give something good to eat! Donate and make someone feel great!Save the country by feeding the hungry";
+                });
+    
+    
+            const chan = document.querySelector('#bnt2');
+            chan.addEventListener('click',
+                () => {
+                    const Changed = document.getElementById('heading');
+                    Changed.innerHTML = "According to the problem above we have decided to make an web based application where there is different options are given to select if you are the consumer (user) or if you are the donor both. ";
+                });
+    
+    
+            const Changed = document.querySelector('#bnt3');
+            Changed.addEventListener('click',
+                () => {
+                    const Changed = document.getElementById('heading');
+                    Changed.innerHTML = "Continuously exploring how to solve the hunger problem, the organization saves the lives of children and their families through detection, prevention, and treatment, particularly after a disaster strikes.";
+                });
+        </script>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="static/scripts/responses.js"></script>
+<script src="static/scripts/chat.js"></script>
+</body>
+
+</html>

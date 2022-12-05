@@ -1,0 +1,285 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    font-family: helvetica;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    box-shadow: 16px 3px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d4b65;
+}
+
+/* # Type - Selection 
+# Storage - Selection
+# Item - Selection
+# Period - Integer  & Selection(Period)
+# Details - Char
+# Quantity - Integer */
+
+.btn_select {
+    display: flex;
+
+}
+
+.btn {
+    width: 90px;
+    height: 35px;
+    margin-right: 20px;
+    border: none;
+    background-color: #FF7F50;
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    border: 1px solid rgb(153, 141, 141);
+}
+
+.btn:focus {
+    background-color: #f77141;
+    ;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.content {
+    height: 93vh;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(248, 123, 18, 0.6371499283307073) 100%);
+}
+
+.carts {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.cart {
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.mar {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.mar_cart {
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+#img3 {
+    width: 60px;
+}
+
+/* .feedback {
+
+
+    margin-top: 5px;
+
+
+} */
+
+.contianer3 {
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    max-width: 768px;
+    min-height: 480px;
+}
+
+.from-container3 {
+    display: flex;
+}
+
+.left-container3 {
+    padding: 0px 110px;
+    width: 10;
+    height: 700px;
+    background: #ffc107;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    display: flex;
+    color: #fff;
+
+}
+
+.left-container3 p {
+    font-size: 0.9rem;
+
+}
+
+#h23 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.right-container3 {
+    text-align: center;
+    padding: 0 40px;
+    display: flex;
+    height: 700px;
+    flex: 1;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-container3 p {
+    text-align: left;
+
+}
+
+.Sm-view3 {
+    display: none;
+}
+
+input,
+textarea {
+    background: #eee;
+    outline: none;
+    border: 2px solid #eee;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid #ffc107;
+}
+
+.button3 {
+    border-radius: 20px;
+    border: 2px solid #2d4b65;
+    background: #2d4b65;
+    color: #eee;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 12px 45px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button3:hover {
+    background: #fff;
+    color: #ffc107;
+
+}
+
+.newh1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container5 {
+    height: 544px;
+    width: 100%;
+
+    display: flex;
+
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.box5 {
+
+    font-style: italic;
+    font-family: cursive;
+    margin: 10px;
+    padding: 3px;
+
+}
+
+
+.img5 {
+
+    width: 670px;
+    height: 500px;
+    margin: 20px 30px;
+    background-color: #6f7982;
+}
+
+.body5 {
+
+    margin-top: 186px;
+    /* box-sizing: border-box; */
+    padding: 0px;
+    /* min-height: 100vh; */
+    background-color: #6f7982;
+
+    font-family: arial;
+}
+
+#box-1 {
+    padding: 33px;
+    margin: 30px 30px;
+    flex-grow: 6;
+    flex-shrink: 5;
+    flex-basis: 200px;
+}
+
+#box-2 {
+    padding: 10spx;
+    margin: 1px;
+    background-color: yellow;
+}
+
+
+
+
+
+.lg-view3
+{
+    margin-top: 20px;
+} 
+
+
+
+

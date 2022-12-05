@@ -1,0 +1,25 @@
+{
+  "name": "rajatsinh",
+  "version": "1.0.0",
+  "description": "my name is rajat singh",
+  "main": "index.js",
+  "scripts": {
+    "test": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Rajat2020"
+  },
+  "keywords": [
+    "54"
+  ],
+  "author": "rajat",
+  "license": "ISC",
+  "dependencies": {
+    "global": "^4.4.0",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
